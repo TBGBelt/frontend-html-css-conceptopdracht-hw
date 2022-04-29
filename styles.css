@@ -35,7 +35,7 @@ header,
 .footer__inner-container,
 .footer__form--form,
 .footer__form {
-    border: 3px solid greenyellow;
+    border: 3px solid purple;
 }
 
 .navigation,
@@ -168,7 +168,7 @@ textarea {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
     min-height: 400px;
     background-image: var(--main-gradient-color);
     color: var(--main-font-color-light);
@@ -358,12 +358,12 @@ textarea {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /*align-items: center;*/
     background-image: var(--main-gradient-color);
 }
 
 .footer__inner-container {
-    max-width: 1200px;
+    /*max-width: 1200px;*/
     /*min-width: 80%;*/
     flex-basis: 600px;
 }
@@ -373,15 +373,19 @@ textarea {
 .footer__form--form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-grow: 1;
+
 }
 
 .footer__form {
-    width: 60%;
-    max-width: 900px;
+    width: 80%;
+    height: 80%;
+    /*max-width: 900px;*/
     margin-top: 2em;
     margin-bottom: 2em;
+
 }
 
 .footer__form--form {
