@@ -21,7 +21,7 @@
     --main-gradient-color: linear-gradient(to right, rgb(74, 73, 231), rgb(87, 34, 205));
 }
 
-/*1.2 colour borders*/
+/*!*1.2 colour borders*!*/
 
 header,
 .main__outer-container {
@@ -358,13 +358,13 @@ textarea {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*align-items: center;*/
+    align-items: center;
     background-image: var(--main-gradient-color);
 }
 
 .footer__inner-container {
-    /*max-width: 1200px;*/
-    /*min-width: 80%;*/
+    max-width: 1200px;
+    min-width: 80%;
     flex-basis: 600px;
 }
 
@@ -381,12 +381,13 @@ textarea {
 
 .footer__form {
     width: 80%;
-    height: 80%;
-    /*max-width: 900px;*/
+    height: 100%;
+    max-width: 900px;
     margin-top: 2em;
     margin-bottom: 2em;
 
 }
+
 
 .footer__form--form {
     width: 100%;
@@ -395,16 +396,17 @@ textarea {
 
 .form__input {
     width: 100%;
+    color: var(--main-font-color-light);
 }
 
 .label {
     margin: 1em;
 }
 
-.input[type=text],
-textarea {
-    padding: 1em;
-    border-radius: 2px;
-    /*border: none;*/
-    /*resize: none;*/
-}
+/*.input[type=text],*/
+/*textarea {*/
+/*    padding: 1em;*/
+/*    border-radius: 2px;*/
+/*    border: none;*/
+/*    resize: none;*/
+/*}*/
