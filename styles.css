@@ -23,33 +23,33 @@
 
 /*!*1.2 colour borders*!*/
 
-header,
-.main__outer-container {
-    border: 3px solid red;
-}
+/*header,*/
+/*.main__outer-container {*/
+/*    border: 3px solid red;*/
+/*}*/
 
-.header__inner-container,
-.main__inner-container,
-.main__about-section,
-.main__services--inner-container,
-.footer__inner-container,
-.footer__form--form,
-.footer__form {
-    border: 3px solid purple;
-}
+/*.header__inner-container,*/
+/*.main__inner-container,*/
+/*.main__about-section,*/
+/*.main__services--inner-container,*/
+/*.footer__inner-container,*/
+/*.footer__form--form,*/
+/*.footer__form {*/
+/*    border: 3px solid purple;*/
+/*}*/
 
-.navigation,
-.header__hero-section,
-.header__squiggle-line,
-.main__paragraph--about-section,
-.main__paragraph--cta-line,
-#main__content-section {
-    border: 3px solid yellow;
-}
+/*.navigation,*/
+/*.header__hero-section,*/
+/*.header__squiggle-line,*/
+/*.main__paragraph--about-section,*/
+/*.main__paragraph--cta-line,*/
+/*#main__content-section {*/
+/*    border: 3px solid yellow;*/
+/*}*/
 
-.main__content-article {
-    border: 3px solid blue;
-}
+/*.main__content-article {*/
+/*    border: 3px solid blue;*/
+/*}*/
 
 /*2. typography*/
 
@@ -193,8 +193,7 @@ textarea {
     display: flex;
     gap: 2em;
     margin: 1em 2em;
-    /*justify-content: space-between;*/
-}
+   }
 
 .navigation__link {
     color: var(--main-font-color-light);
@@ -260,7 +259,7 @@ textarea {
     color: var(--main-focus-color);
     text-align: center;
     padding: 20px;
-    /*font-size: 50px;*/
+
 }
 
 .main__paragraph--cta-line {
@@ -354,6 +353,8 @@ textarea {
     margin: 1em 1em 0.5em 0;
 }
 
+/*contactformulier*/
+
 #footer__outer-container {
     display: flex;
     flex-direction: column;
@@ -375,7 +376,7 @@ textarea {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    flex-grow: 1;
+
 
 }
 
@@ -403,10 +404,12 @@ textarea {
     margin: 1em;
 }
 
-/*.input[type=text],*/
-/*textarea {*/
-/*    padding: 1em;*/
-/*    border-radius: 2px;*/
-/*    border: none;*/
-/*    resize: none;*/
-/*}*/
+.footer__copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--main-font-color-dark);
+    height: 6em;
+}
